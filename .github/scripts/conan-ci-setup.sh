@@ -1,9 +1,10 @@
 #!/bin/bash
 #
-# Stolen from https://github.com/friendlyanon/cmake-init.  Instead of
-# this clever script, we could require CMake 2.24 which supports
-# CMAKE_PROJECT_TOP_LEVEL_INCLUDES which would enable us to use
-# https://github.com/conan-io/cmake-conan.
+# Stolen and adapted from https://github.com/friendlyanon/cmake-init.
+#
+# Instead of this clever script, we could require CMake 2.24 which
+# supports CMAKE_PROJECT_TOP_LEVEL_INCLUDES which would enable us to
+# use https://github.com/conan-io/cmake-conan.
 #
 # Not only does that seem slightly more idiomatic but it would
 # hopefully allow us to automatically CMake's CMAKE_BUILD_TYPE with
